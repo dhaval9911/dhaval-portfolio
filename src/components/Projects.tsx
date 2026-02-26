@@ -7,14 +7,14 @@ const projects = [
     description: "Architected and managed production-grade Kubernetes clusters with a focus on high availability, security, and automated scaling.",
     tags: ["Kubernetes", "Docker", "Helm", "Cloud-Native"],
     icon: <Server className="text-blue-400" />,
-    image: "https://picsum.photos/seed/k8s/600/400"
+    image: "k8s-cluster.png"
   },
   {
     title: "Infrastructure Troubleshooting & Reliability",
     description: "Led initiatives to identify and resolve critical infrastructure bottlenecks, improving system uptime and reducing MTTR through advanced observability.",
     tags: ["Observability", "SRE", "Root Cause Analysis", "Monitoring"],
     icon: <ShieldCheck className="text-emerald-400" />,
-    image: "https://picsum.photos/seed/reliability/600/400"
+    image: "Infrastructure_Troubleshooting_&_Reliability.png"
   }
 ];
 

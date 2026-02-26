@@ -1,5 +1,8 @@
+.env
+*.log
 node_modules
 dist
-.env
 .git
-*.log
+.gitignore
+Dockerfile
+README.md

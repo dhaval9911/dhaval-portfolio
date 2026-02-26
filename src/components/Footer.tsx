@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-center md:text-left">
             <div className="font-bold text-2xl tracking-tighter mb-2">
-              <span className="text-brand">D</span>HAVAL<span className="text-brand">.</span>
+              <span className="text-brand">D</span>HAVAL CHAVDA<span className="text-brand">.</span>
             </div>
             <p className="text-slate-500 text-sm">
               Site Reliability & Observability Engineer
@@ -23,15 +23,22 @@ export default function Footer() {
             <a href="#skills" className="text-slate-400 hover:text-brand text-sm transition-colors">Skills</a>
             <a href="#projects" className="text-slate-400 hover:text-brand text-sm transition-colors">Projects</a>
           </div>
-
           <div className="text-center md:text-right">
             <p className="text-slate-500 text-sm flex items-center justify-center md:justify-end gap-1">
-              Built with <Heart size={14} className="text-red-500 fill-red-500" /> by Dhaval Chavda
+              Built by Dhaval Chavda Using 
+              <a 
+                href="https://aistudio.google.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 transition-colors font-medium"
+              >
+                AiStudio
+              </a>
             </p>
             <p className="text-slate-600 text-xs mt-1">
-              &copy; {currentYear} All rights reserved.
+              &copy; {new Date().getFullYear()} All rights reserved.
             </p>
-          </div>
+</div>
         </div>
       </div>
     </footer>

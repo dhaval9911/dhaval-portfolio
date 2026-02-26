@@ -50,11 +50,12 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative group">
+                <div className="group aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative">
               <img 
-                src="https://picsum.photos/seed/devops/800/800" 
+                src="/Cloud-Native_Reliability_Observability.png" 
                 alt="Dhaval Chavda" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                /* Use transition-all to ensure filter properties are captured */
+                className="w-full h-full object-cover  transition-all duration-200 group-hover:grayscale-0"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent" />

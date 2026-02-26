@@ -22,7 +22,7 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="flex-shrink-0 font-bold text-xl tracking-tighter"
           >
-            <span className="text-brand">D</span>HAVAL<span className="text-brand">.</span>
+            <span className="text-brand">D</span>HAVAL CHAVDA<span className="text-brand">.</span>
           </motion.div>
           
           <div className="hidden md:block">

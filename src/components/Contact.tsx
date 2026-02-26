@@ -18,33 +18,52 @@ export default function Contact() {
             </p>
 
             <div className="space-y-6">
-              <a href="mailto:dhaval.chavda@example.com" className="flex items-center gap-4 group">
+              <a href="mailto:dhavalchavda1112@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-2xl bg-slate-800 flex items-center justify-center group-hover:bg-brand group-hover:text-white transition-all">
                   <Mail size={20} />
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider font-semibold">Email</p>
-                  <p className="text-white font-medium">dhaval.chavda@example.com</p>
+                  <p className="text-white font-medium">dhavalchavda1112@gmail.com</p>
                 </div>
               </a>
 
-              <a href="https://linkedin.com/in/dhavalchavda" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <a href="https://www.linkedin.com/in/dhaval-chavda1112/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-2xl bg-slate-800 flex items-center justify-center group-hover:bg-brand group-hover:text-white transition-all">
                   <Linkedin size={20} />
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider font-semibold">LinkedIn</p>
-                  <p className="text-white font-medium">linkedin.com/in/dhavalchavda</p>
+                  <p className="text-white font-medium">linkedin.com/in/dhaval-chavda1112/</p>
                 </div>
               </a>
 
-              <a href="https://github.com/dhavalchavda" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+              <a href="https://github.com/dhaval9911" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-2xl bg-slate-800 flex items-center justify-center group-hover:bg-brand group-hover:text-white transition-all">
                   <Github size={20} />
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-wider font-semibold">GitHub</p>
-                  <p className="text-white font-medium">github.com/dhavalchavda</p>
+                  <p className="text-white font-medium">github.com/dhaval9911</p>
+                </div>
+              </a>
+              {/* <a href="https://github.com/dhaval9911" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
+                <div className="w-12 h-12 rounded-2xl bg-slate-800 flex items-center justify-center group-hover:bg-brand group-hover:text-white transition-all">
+                  <Phone size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-slate-500 uppercase tracking-wider font-semibold">Contact</p>
+                  <p className="text-white font-medium">9016647981</p>
+                </div>
+              </a> */}
+              <a href="tel:+919016647981" className="flex items-center gap-4 group">
+                <div className="w-12 h-12 rounded-2xl bg-slate-800 flex items-center justify-center group-hover:bg-brand group-hover:text-white transition-all">
+                  {/* Ensure you have the Phone icon imported from lucide-react or your icon set */}
+                  <Phone size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-slate-500 uppercase tracking-wider font-semibold">Contact</p>
+                  <p className="text-white font-medium">+91 90166 47981</p>
                 </div>
               </a>
             </div>
@@ -62,7 +81,7 @@ export default function Contact() {
                   <label className="text-sm font-medium text-slate-400 ml-1">Name</label>
                   <input 
                     type="text" 
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     className="w-full bg-slate-800/50 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand transition-colors"
                   />
                 </div>
@@ -70,7 +89,7 @@ export default function Contact() {
                   <label className="text-sm font-medium text-slate-400 ml-1">Email</label>
                   <input 
                     type="email" 
-                    placeholder="john@example.com"
+                    placeholder="name@example.com"
                     className="w-full bg-slate-800/50 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand transition-colors"
                   />
                 </div>
@@ -79,7 +98,7 @@ export default function Contact() {
                 <label className="text-sm font-medium text-slate-400 ml-1">Subject</label>
                 <input 
                   type="text" 
-                  placeholder="Inquiry about SRE services"
+                  placeholder="Hey there!!"
                   className="w-full bg-slate-800/50 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand transition-colors"
                 />
               </div>

@@ -1,12 +1,12 @@
 import { motion } from "motion/react";
 import { ChevronRight, Download, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
+import resumePDF from './resume.pdf';
 
 const titles = [
   "Site Reliability Engineer",
   "Observability Engineer",
-  "DevOps Specialist",
-  "Cloud Infrastructure Expert"
+  "DevOps Enthusiast",
 ];
 
 export default function Hero() {
@@ -74,8 +74,17 @@ export default function Hero() {
             >
               Contact Me <Mail size={18} />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="#"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white border border-white/10 rounded-xl font-semibold flex items-center justify-center gap-2 transition-colors"
+            >
+              Download Resume <Download size={18} />
+            </motion.a> */}
+            <motion.a
+              href={resumePDF}
+              download="Dhaval_Chavda_Resume.pdf" // This forces the download and sets the filename
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white border border-white/10 rounded-xl font-semibold flex items-center justify-center gap-2 transition-colors"
